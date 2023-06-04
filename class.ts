@@ -172,27 +172,22 @@ class CharacterBuilder {
 
   setLevel(level: number) {
     this.character.level = level;
-    return this.character;
   }
 
   setStrength(strength: number) {
     this.character.strength = strength;
-    return this.character;
   }
 
   setAgility(agility: number) {
     this.character.agility = agility;
-    return this.character;
   }
 
   setIntelligence(intelligence: number) {
     this.character.intelligence = intelligence;
-    return this.character;
   }
 
   setDefense(defense: number) {
     this.character.defense = defense;
-    return this.character;
   }
 
   build(): Character {
